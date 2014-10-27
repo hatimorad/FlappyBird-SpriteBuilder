@@ -21,7 +21,7 @@
     
     // put update code here
     //increment the time since the last obstacle was added
-    timeSinceObstacle += delta //delta is approximately 1/60th of a second
+    timeSinceObstacle += delta; //delta is approximately 1/60th of a second
     
     //check to see if 2 second has passed
     if (timeSinceObstacle > 2.0f) {
